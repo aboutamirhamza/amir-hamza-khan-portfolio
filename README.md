@@ -8,5 +8,6 @@
 5. Lucide Icon
 6. Heroicons
 7. Light/Dark
+8. Custom Font Inter
 
 # Full Responsive

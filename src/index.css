@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+  .header_right_btn{
+    @apply font-inter text-base p-2 border border-primary rounded-sm hover:bg-orange-600 hover:text-white hover:transition-colors hover:border-orange-600 hover:rounded-sm;
+  }
+
+
+  .heading_content {
+  @apply font-inter text-4xl text-primary relative text-center;
+}
+
+  .heading_content::before,
+  .heading_content::after {
+    content: '';
+    @apply absolute h-0.5 bg-gray-500 top-1/2;
+  }
+
+  .heading_content::before {
+    @apply left-0 w-1/3 extrasmall:w-2/12 md:w-1/3;
+  }
+
+  .heading_content::after {
+    @apply right-0 w-1/3 extrasmall:w-2/12 md:w-1/3;
+  }
+}
+
+.dark *,
+.dark {
+  --tw-bg-opacity: 1;
+  --tw-text-opacity: 1;
+}

@@ -1,4 +1,4 @@
-# Live Link: amir-hamza-khan.netlify.app
+Live Link: amir-hamza-khan.netlify.app
 
 # Using:
 1. TailwindCSS

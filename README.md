@@ -1,4 +1,5 @@
-Live Link: <a href="amir-hamza-khan.netlify.app">Amir Hamza Khan</a>
+Live Link: 
+https://amir-hamza-khan.netlify.app
 
 # Using:
 1. TailwindCSS
